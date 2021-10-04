@@ -1,4 +1,3 @@
-@import url("https://fonts.googlespis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -80,13 +79,21 @@ body {
   width: 50px;
 }
 
-.user-info {
+.user-list .user-info {
   margin-left: 10px;
 }
-.user-info > h4 {
+.user-list .user-info > h4 {
   margin: 0 0 10px;
 }
-.user-info > p {
+.user-list .user-info > p {
   font-size: 12px;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+  display: n;
 }
 /*# sourceMappingURL=main.css.map */
